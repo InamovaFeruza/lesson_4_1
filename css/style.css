@@ -1,0 +1,100 @@
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300;700&display=swap");
+
+@font-face {
+	font-family: Manrope;
+	src: url("../fonts/Manrope-Bold.woff2") format("woff2"), url("../fonts/Manrope-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: Manrope;
+	src: url("../fonts/Manrope.woff2") format("woff2"), url("../fonts/Manrope.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: Manrope;
+	src: url("../fonts/Manrope-Medium.woff2") format("woff2"), url("../fonts/Manrope-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: BlackerProDisplayCondensedTrial;
+	src: url("../fonts/BlackerProDisplayCondensedTrial-BoldItalic.woff2") format("woff2"),
+		url("../fonts/BlackerProDisplayCondensedTrial-BoldItalic.woff") format("woff");
+	font-weight: 700;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: Jost-Light;
+	src: url("../fonts/Jost-Light.woff2") format("woff2"), url("../fonts/Jost-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: Jost-Light;
+	src: url("../fonts/Jost-LightItalic.woff2") format("woff2"), url("../fonts/Jost-Lightitalic.woff") format("woff");
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+.wrapper {
+	width: 700px;
+	margin: 0 auto;
+}
+body {
+	font-size: 18px;
+	font-family: Manrope;
+}
+.header h1 {
+	font-size: 30px;
+	font-family: "Rowdies", cursive;
+}
+img {
+	width: 600px;
+}
+.first-section {
+	font-family: "Rowdies", cursive;
+}
+.text-black p {
+	font-family: "Quintessential", cursive;
+}
+.text-black {
+	background-color: black;
+	color: white;
+}
+.paragraph1 {
+	font-family: Manrope;
+	font-weight: 700;
+}
+.paragraph2 {
+	font-family: Manrope;
+	font-weight: 400;
+}
+.paragraph3 {
+	font-family: Manrope;
+	font-weight: 500;
+}
+.paragraph4 {
+	font-family: BlackerProDisplayCondensedTrial;
+	font-weight: 700;
+	font-style: italic;
+}
+.paragraph5 {
+	font-family: Jost-Light;
+	font-weight: 300;
+	font-style: normal;
+}
+.paragraph5 {
+	font-family: Jost-Light;
+	font-weight: 300;
+	font-style: italic;
+}
