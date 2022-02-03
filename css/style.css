@@ -3,28 +3,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300;700&display=swap");
 
 @font-face {
-	font-family: Manrope;
+	font-family: "Manrope";
 	src: url("../fonts/Manrope-Bold.woff2") format("woff2"), url("../fonts/Manrope-Bold.woff") format("woff");
 	font-weight: 700;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
-	font-family: Manrope;
+	font-family: "Manrope";
 	src: url("../fonts/Manrope.woff2") format("woff2"), url("../fonts/Manrope.woff") format("woff");
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
-	font-family: Manrope;
+	font-family: "Manrope";
 	src: url("../fonts/Manrope-Medium.woff2") format("woff2"), url("../fonts/Manrope-Medium.woff") format("woff");
 	font-weight: 500;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
-	font-family: BlackerProDisplayCondensedTrial;
+	font-family: "BlackerProDisplayCondensedTrial-Bold";
 	src: url("../fonts/BlackerProDisplayCondensedTrial-BoldItalic.woff2") format("woff2"),
 		url("../fonts/BlackerProDisplayCondensedTrial-BoldItalic.woff") format("woff");
 	font-weight: 700;
@@ -32,14 +32,14 @@
 	font-display: swap;
 }
 @font-face {
-	font-family: Jost-Light;
+	font-family: "Jost-Light";
 	src: url("../fonts/Jost-Light.woff2") format("woff2"), url("../fonts/Jost-Light.woff") format("woff");
 	font-weight: 300;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
-	font-family: Jost-Light;
+	font-family: "Jost-Light";
 	src: url("../fonts/Jost-LightItalic.woff2") format("woff2"), url("../fonts/Jost-Lightitalic.woff") format("woff");
 	font-weight: 300;
 	font-style: italic;
@@ -52,49 +52,77 @@
 }
 body {
 	font-size: 18px;
-	font-family: Manrope;
+	font-family: "Manrope", "Jost-Light", "BlackerProDisplayCondensedTrial", "Arial", "Helvetica", sans-serif;
 }
 .header h1 {
 	font-size: 30px;
 	font-family: "Rowdies", cursive;
+	word-spacing: 2px;
+	text-transform: uppercase;
+	line-height: 1.5;
 }
 img {
 	width: 600px;
+	margin: 0 auto;
 }
 .first-section {
 	font-family: "Rowdies", cursive;
+	text-shadow: 10px 10px 20px #7532a8;
 }
 .text-black p {
 	font-family: "Quintessential", cursive;
+	text-decoration: underline;
 }
 .text-black {
 	background-color: black;
 	color: white;
 }
 .paragraph1 {
-	font-family: Manrope;
+	font-family: "Manrope";
 	font-weight: 700;
+	color: blue;
+	text-decoration: overline;
 }
 .paragraph2 {
-	font-family: Manrope;
+	font-family: "Manrope";
 	font-weight: 400;
+	color: yellowgreen;
+	text-decoration: line-through;
 }
 .paragraph3 {
-	font-family: Manrope;
+	font-family: "Manrope";
 	font-weight: 500;
+	color: turquoise;
 }
 .paragraph4 {
-	font-family: BlackerProDisplayCondensedTrial;
+	font-family: "BlackerProDisplayCondensedTrial";
 	font-weight: 700;
 	font-style: italic;
+	color: yellow;
 }
 .paragraph5 {
-	font-family: Jost-Light;
+	font-family: "Jost-Light";
 	font-weight: 300;
 	font-style: normal;
+	color: violet;
 }
-.paragraph5 {
-	font-family: Jost-Light;
+.paragraph6 {
+	font-family: "Jost-Light";
 	font-weight: 300;
 	font-style: italic;
+	color: tomato;
+	text-align: justify;
+}
+.paragraph7 {
+	letter-spacing: 10px;
+}
+.blue-text {
+	background-color: cornflowerblue;
+	color: cornsilk;
+}
+.paragraph8 {
+	word-spacing: 100px;
+}
+.paragraph9 {
+	text-indent: 5%;
 }
